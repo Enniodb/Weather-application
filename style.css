@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://images6.alphacoders.com/343/thumb-1920-343137.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#page-wrapper {
+    width: 100%;
+    margin: auto;
+    font-family: "Oxygen", sans-serif;
+
+}
+#page-wrapper #input {
+    min-height: 130px;
+    text-align: center;
+}
+#page-wrapper .day {
+    min-height: 200px;
+    min-width: 15em;
+}
+#page-wrapper .temp {
+    font-weight: bold;
+    font-size: 140%;
+}
+
+#day1, #day2, #day3, #day4, #day5{
+    box-shadow: 5px 5px 40px black;
+    color: white;
+    border: 1px solid black;
+}
+
+#day1:hover, #day2:hover, #day3:hover, #day4:hover, #day5:hover {
+    color: black;
+    box-shadow: 10px 10px 80px black;
+    border: 1px solid white
+}
+h1 {
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
